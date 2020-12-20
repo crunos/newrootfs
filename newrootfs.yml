@@ -1,0 +1,3 @@
+init:
+  - alpine:latest
+  - crunosfs/crun:latest

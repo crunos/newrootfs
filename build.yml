@@ -1,0 +1,14 @@
+image: newrootfs
+org: crunosfs
+
+network: true
+disable-content-trust: true
+
+#depends:
+#  docker-images:
+#    target: newrootfs.tar 
+#    list:
+#      - docker.io/library/alpine:latest@sha256:a126728cb7db157f0deb377bcba3c5e473e612d7bafc27f6bb4e5e083f9f08c2
+#      - docker.io/crunos/crun:latest@sha256:4f7ac96a38f87cd49b3c738777c3db69f5a84f8cf7c7c33334197c3fe68105e5
+#      - docker.io/crunos/containers:latest@sha256:3d10477a2f401985fd4a520f890ee9243017fa3c89e0fdf9ea9d10d0a5ad2223
+#      - docker.io/pwfoo/docker:latest@sha256:8c2c8413f985080f92966efa31f07fd00ec9d62d9e891851c5667ca1611ecf94
